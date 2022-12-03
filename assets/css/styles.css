@@ -1,0 +1,192 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.menu {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+}
+
+.menu div {
+    margin: 5px;
+}
+
+.foto {
+    background-color: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 80px;
+    border: 1px solid #dfe1e5;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 88%
+}
+
+.rodape1 {
+    display: flex;
+    align-items: center;
+    background-color: #f2f2f2;
+    width: 100%;
+    height: 40px;
+}
+
+.rodape1 div {
+    margin: 0px 10px;
+    color: #70757a;
+    font-size: 15px;
+}
+
+.rodape2 {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f2f2f2;
+    width: 100%;
+    height: 40px;
+}
+
+.parte1 {
+    display: flex;
+    align-items: center;
+}
+
+.Sobre {
+    margin: 0px 10px;
+    font-size: 15px;
+}
+
+.Publicidade {
+    margin: 0px 10px;
+    font-size: 15px;
+}
+
+.Negócios {
+    margin: 0px 10px;
+    font-size: 15px;
+}
+
+.ComoFuncionaaPesquisa {
+    margin: 0px 10px;
+    font-size: 15px;
+}
+
+.parte2 {
+    display: flex;
+    align-items: center;
+}
+
+.Privacidade {
+    margin: 0px 10px;
+    font-size: 15px;
+}
+
+.Termos {
+    margin: 0px 10px;
+    font-size: 15px;
+}
+
+.Configurações {
+    margin: 0px 10px;
+    font-size: 15px;
+}
+
+.contents {
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    background-color: white;
+    width: 900px;
+    height: 500px;
+}
+
+img {
+    width: 354px;
+    height: 116px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.pesquisa {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 600px;
+    height: 44px;
+    padding-left: 14px;
+    padding-right: 8px;
+    border-radius: 24px;
+    border: 1px solid #dfe1e5;
+}
+
+.pesquisa:hover {
+    box-shadow: 1px 1px 5px 1px #dfe1e5;
+}
+
+.busca img {
+    width: 20px;
+    height: 20px;
+}
+
+.teclado img {
+    width: 30px;
+    height: 30px;
+}
+
+.botao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+    margin-top: 30px;
+}
+
+.pesquisagoogle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8f9fa;
+    width: 150px;
+    height: 50px;
+    margin-right: 5px;
+    font-size: 18px;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+}
+
+.pesquisagoogle:hover{
+    border: 1px solid #999999;
+}
+
+.estoucomsorte {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8f9fa;
+    width: 150px;
+    height: 50px;
+    margin-left: 5px;
+    font-size: 18px;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+}
+
+.estoucomsorte:hover {
+    border: 1px solid #999999;
+}
